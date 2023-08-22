@@ -1,0 +1,14 @@
+Nest Js 
+--------
+
+scalable, reliable, and efficient server-side applications.
+fully supported typescript 
+
+1) npm i -g @nestjs/cli 
+2) Node.js (>=10.13.0)
+3) express , fastify http plateform 
+
+4) nest new project-name 
+5) npm run start
+6) npm run start:dev
+

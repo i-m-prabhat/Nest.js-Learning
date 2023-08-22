@@ -37,7 +37,6 @@ When it comes to the folder structure of a Nest.js application, it follows a mod
 
 5. **other configuration files**: Additional configuration files related to your build process, deployment, or tooling can also be present in the root directory of your application.
 
-
 ## NestJS Code Generation Commands
 
 Before using below commands first install nest js CLI globally ▶ `npm i -g @nestjs/cli`
@@ -138,5 +137,3 @@ Here are the various code generation commands available in NestJS using the Nest
     Command: `nest generate sub-app <name>`
     Alias: `nest g app <name>`
     Description: Generates a new application within a monorepo.
-
-
