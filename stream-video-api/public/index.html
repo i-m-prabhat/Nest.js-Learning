@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Video Stream</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+
+    <body>
+        <div id="videoContainer">
+            <video id="videoPlayer" controls muted="muted" autoplay>
+                <source src="http://localhost:3000/video/stream/restapi.mp4" type="video/mp4">
+            </video>
+            <div id="videoControls">
+                <button id="playButton">Play</button>
+                <button id="pauseButton">Pause</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+
+</html>
